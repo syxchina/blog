@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>新建网页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
+</head>
+    <body>
+    	<form action="{:U(GROUP_NAME . '/System/updateWater')}" method="post">
+    		<table class="table">
+    			<tr>
+    				<th colspan="2">水印配置</th>
+    			</tr>
+    			<tr>
+    				<td align="right">水印模式1(图片)0(文字)</td>
+    				<td><input type="text" name="WATER_MODEL" value="{:C('water_model')}" /></td>
+    			</tr>
+    			<tr>
+    				<td align="right">水印图路径</td>
+    				<td><input type="text" name="WATER_IMAGE" value="{:C('water_image')}"/></td>
+    			</tr>
+    			<tr>
+    				<td align="right">水印位置</td>
+    				<td><input type="text" name="WATER_POS" value="{:C('water_pos')}"/></td>
+    			</tr>
+    			<tr>
+    				<td align="right">水印透明度</td>
+    				<td><input type="text" name="WATER_ALPHA" value="{:C('water_alpha')}" /></td>
+    			</tr>
+				<tr>
+					<td align="right">JPEG图片压缩比</td>
+					<td><input type="text" name="WATER_COMPRESSION" value="{:C('water_compression')}" /></td>
+				</tr>
+				<tr>
+					<td align="right">水印文字</td>
+					<td><input type="text" name="WATER_TEXT" value="{:C('water_text')}" /></td>
+				</tr>
+				<tr>
+					<td align="right">水印文字旋转角度</td>
+					<td><input type="text" name="WATER_ANGLE" value="{:C('water_angle')}" /></td>
+				</tr>
+				<tr>
+					<td align="right">水印文字大小</td>
+					<td><input type="text" name="WATER_FONTSIZE" value="{:C('water_fontsize')}" /></td>
+				</tr>
+				<tr>
+					<td align="right">水印颜色</td>
+					<td><input type="text" name="WATER_FONTCOLOR" value="{:C('water_fontcolor')}" /></td>
+				</tr>
+				<tr>
+					<td align="right">水印文字字体文件<br/>(写入中文字时需使用支持中文的字体文件)</td>
+					<td><input type="text" name="WATER_FONTFILE" value="{:C('water_fontfile')}" /></td>
+				</tr>
+				<tr>
+					<td align="right">水印文字字符编码</td>
+					<td><input type="text" name="WATER_CHARSET" value="{:C('water_charset')}" /></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" value="保存修改" /></td>
+				</tr>
+    		</table>
+    	</form>
+    </body>
+</html>
