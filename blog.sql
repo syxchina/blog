@@ -52,10 +52,11 @@ CREATE TABLE `bl_blog` (
   `title` varchar(30) NOT NULL DEFAULT '',
   `content` text,
   `time` int(10) unsigned NOT NULL DEFAULT '0',
+  `click` int(10) unsigned NOT NULL DEFAULT '0',
   `cid` int(10) unsigned NOT NULL DEFAULT '0',
   `del` tinyint(3) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -64,6 +65,7 @@ CREATE TABLE `bl_blog` (
 
 LOCK TABLES `bl_blog` WRITE;
 /*!40000 ALTER TABLE `bl_blog` DISABLE KEYS */;
+INSERT INTO `bl_blog` VALUES (5,'ni hao','<p>哈哈哈的哈大方的</p>',1388049551,100,7,0),(4,'test4','<p>HTMLLTTLT</p>',1388049290,100,1,0);
 /*!40000 ALTER TABLE `bl_blog` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -86,6 +88,7 @@ CREATE TABLE `bl_blog_attr` (
 
 LOCK TABLES `bl_blog_attr` WRITE;
 /*!40000 ALTER TABLE `bl_blog_attr` DISABLE KEYS */;
+INSERT INTO `bl_blog_attr` VALUES (4,1),(4,2);
 /*!40000 ALTER TABLE `bl_blog_attr` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -139,7 +142,7 @@ CREATE TABLE `bl_user` (
 
 LOCK TABLES `bl_user` WRITE;
 /*!40000 ALTER TABLE `bl_user` DISABLE KEYS */;
-INSERT INTO `bl_user` VALUES (1,'admin','21232f297a57a5a743894a0e4a801fc3',1387935153,'127.0.0.1');
+INSERT INTO `bl_user` VALUES (1,'admin','21232f297a57a5a743894a0e4a801fc3',1388036631,'127.0.0.1');
 /*!40000 ALTER TABLE `bl_user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -152,4 +155,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-12-25 17:00:00
+-- Dump completed on 2013-12-26 17:27:48

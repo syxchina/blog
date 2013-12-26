@@ -15,6 +15,7 @@ return array(
 
 	// 装在验证码配置
 	'LOAD_EXT_CONFIG'   =>  'verify,water',
+	//'SHOW_PAGE_TRACE' => true,
 );
 
 ?>

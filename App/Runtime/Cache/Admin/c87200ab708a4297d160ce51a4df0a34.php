@@ -18,7 +18,7 @@
 <script type="text/javascript" src="__ROOT__/Data/ueditor/ueditor.all.min.js"></script>
 </head>
     <body>
-    	<form action="<?php echo U(GROUP_NAME . '/Blog/addBlogHandle');?>">
+    	<form action="<?php echo U(GROUP_NAME . '/Blog/addBlogHandle');?>" method="post">
 	    	<table class="table">
 	  		  	<tr>
 	  		  		<th colspan="2">发表博文</th>
@@ -39,6 +39,10 @@
 	  		  					<input type="checkbox" name="attr[]" value="<?php echo ($v["id"]); ?>" />&nbsp;<?php echo ($v["name"]); ?>
 	  		  				</label><?php endforeach; endif; ?>
 	  		  		</td>
+	  		  	</tr>
+	  		  	<tr>
+	  		  		<td align="right">点击次数</td>
+	  		  		<td><input type="text" name="click" value="100" /></td>
 	  		  	</tr>
 	  		  	<tr>
 	  		  		<td align="right">博文标题</td>

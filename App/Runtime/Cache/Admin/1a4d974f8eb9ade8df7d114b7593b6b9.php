@@ -28,6 +28,7 @@
 			<dt>博文管理</dt>
 			<dd><a href="<?php echo U(GROUP_NAME . '/Blog/index');?>">博文列表</a></dd>
 			<dd><a href="<?php echo U(GROUP_NAME . '/Blog/addBlog');?>">添加博文</a></dd>
+			<dd><a href="<?php echo U(GROUP_NAME . '/Blog/trach');?>">回收站</a></dd>
 
 		</dl>
 		<dl>
