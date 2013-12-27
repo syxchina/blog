@@ -56,6 +56,26 @@
 			}
 		}
 
+		// 清空回收站
+		public function clearTrash(){
+			if(isset($_POST{'method'})){
+				$where = array(
+					'del' => 1
+					);
+				$ids = M('blog')->where($where)->getField('id', true);
+				if(isset($ids)){
+					foreach ($ids as $v) {
+						M('blog')->delete($v);
+						M('blog_attr')->where(array('bid' => $v))->delete();
+					}
+					echo json_encode(array('success' => 'ok'));
+				}else{
+					echo json_encode(array('success' => 'no'));
+				}
+				
+			}
+		}
+
 		// 增加博文表单处理
 		public function  addBlogHandle(){
 			$data = array(
