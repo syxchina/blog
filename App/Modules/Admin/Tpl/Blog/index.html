@@ -4,6 +4,22 @@
 		<title>新建网页</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
+		<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+			var sendUrl = "{:U(GROUP_NAME . '/Blog/clearTrash')}";
+			$(function(){
+				$("input[type='button']").click(function(){
+					if(!confirm('是否要全部清空')){
+						return;
+					}
+					$.post(sendUrl,{method:'sure'},function(data){
+						if(data.success == 'ok'){
+							$("tr[name='info']").remove();
+						}
+					},'json')
+				});
+			});
+		</script>
 		</head>
 		    <body>
 		    	<table class="table">
@@ -16,7 +32,7 @@
 		    			<th>操作</th>
 		    		</tr>
 		    		<foreach name="blog" item="v">
-		    		<tr>
+		    		<tr name="info">
 		    			<td width="8%">{$v.id}</td>
 		    			<td>{$v.title}
 		    				<foreach name="v.attr" item="value">
@@ -37,6 +53,11 @@
 		    			</td>
 		    		</tr>
 		    		</foreach>
+		    		<if condition="ACTION_NAME == trach" >
+			    		<tr>
+			    			<td colspan ="6" align="center"><input type="button" value="清空回收站"/></td>
+			    		</tr>
+		    		</if>
 		    	</table>
 		    </body>
 		</html>		

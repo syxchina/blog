@@ -1,0 +1,52 @@
+</head>
+<body>
+	<div class='top-list-wrap'>
+		<div class='top-list'>
+			<ul class='l-list'>
+				<li><a href="http://www.houdunwang.com" target='_blank'>后盾网</a></li>
+				<li><a href="http://bbs.houdunwang.com" target='_blank'>后盾网论坛</a></li>
+				<li><a href="http://study.houdunwang.com" target='_blank'>后盾学习社区</a></li>
+			</ul>
+			<ul class='r-list'>
+				<li><a href="http://www.hdphp.com" target='_blank'>HDPHP框架</a></li>
+				<li><a href="http://bbs.houdunwang.com" target='_blank'>免费视频教程</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class='top-search-wrap'>
+		<div class='top-search'>
+			<a href="http://bbs.houdunwang.com" target='_blank' class='logo'>
+				<img src="__PUBLIC__/Images/logo.png"/>
+			</a>
+			<div class='search-wrap'>
+				<form action="" method='get'>
+					<input type="text" name='keyword' class='search-content'/>
+					<input type="submit" name='search' value='搜索'/>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class='top-nav-wrap'>
+		<ul class='nav-lv1'>
+			<li class='nav-lv1-li'>
+				<a href="" class='top-cate'>博客首页</a>
+			</li>
+			
+				<li class='nav-lv1-li'>
+					<a href="" class='top-cate'>php</a>
+					
+						<ul>
+							<nav limit="15" order="sort">
+								{$v.name}
+							</nav>
+							<li><a href="">Memched</a></li>
+							
+						</ul>
+					</if>	
+				</li>
+			</foreach>
+		</ul>
+	</div>
