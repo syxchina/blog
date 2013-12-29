@@ -41,21 +41,16 @@
 	<div class='top-nav-wrap'>
 		<ul class='nav-lv1'>
 			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>博客首页</a>
+				<a href="__GROUP__" class='top-cate'>博客首页</a>
 			</li>
-			
-				<li class='nav-lv1-li'>
-					<a href="" class='top-cate'>php</a>
-					
+			<?php
+ import('Class.Category', APP_NAME); $_nav_cate = M('cate')->order("sort")->select(); $_nav_cate = Category::unlimitedForLayer($_nav_cate); foreach($_nav_cate as $_nav_cate_v): extract($_nav_cate_v); $url = U('/c_' . $id); ?><li class='nav-lv1-li'>
+					<a href="<?php echo ($url); ?>" class='top-cate'><?php echo ($name); ?></a>
 						<ul>
-							<?php
- import('Class.Category', APP_NAME); $cate = M('cate')->order("sort")->limit(15)->select(); $cate = Category::unlimitedForLayer($cate); foreach($cate as $v); echo ($v["name"]); endforeach; ?>
-							<li><a href="">Memched</a></li>
-							
+							<?php if(is_array($child)): foreach($child as $key=>$value): ?><li><a href="<?php echo U('/c_' . $value['id']);?>"><?php echo ($value["name"]); ?></a></li><?php endforeach; endif; ?>
 						</ul>
 					</if>	
-				</li>
-			</foreach>
+				</li><?php endforeach; ?>
 		</ul>
 	</div>
 <!--主体-->
@@ -365,56 +360,17 @@
 			</dl>
 		</div>
 	<div class='main-right'>
+	<?php echo W('ShowHot', array('limit' => 5));?>
+	<?php echo W('ShowNew', array('limit' => 5));?>
+		
 			<dl>
-				<dt>热门博文</dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
+				<dt>test自定义标签</dt>
+				<?php $field = array("id", "title", "click");$_new_list = M("blog")->field($field)->order("time DESC")->limit(5)->select();foreach($_new_list as $_new_v):extract($_new_v);$url = U("/" . $id);?><dd>
+						<a href="<?php echo ($url); ?>"><?php echo ($title); ?></a>
+						<span>(<?php echo ($click); ?>)</span>
+					</dd><?php endforeach; ?>
 			</dl>
-
-			<dl>
-				<dt>最发布发</dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-			</dl>
-
+		
 			<dl>
 				<dt>友情连接</dt>
 				<dd>

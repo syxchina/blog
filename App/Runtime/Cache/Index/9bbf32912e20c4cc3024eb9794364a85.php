@@ -38,52 +38,19 @@
 		</div>
 	</div>
 
-
 	<div class='top-nav-wrap'>
 		<ul class='nav-lv1'>
 			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>博客首页</a>
+				<a href="__GROUP__" class='top-cate'>博客首页</a>
 			</li>
-			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>HTML</a>
-			</li>
-			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>DIV+CSS</a>
-			</li>
-			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>JavaScript</a>
-				<ul>
-					<li><a href="">jQuery</a></li>
-					<li><a href="">Ajax</a></li>
-				</ul>
-			</li>
-			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>PHP</a>
-				<ul>
-					<li><a href="">字符串</a></li>
-					<li><a href="">数组</a></li>
-					<li><a href="">对象</a></li>
-				</ul>
-			</li>
-			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>MySQL</a>
-				<ul>
-					<li><a href="">存储引擎</a></li>
-					<li><a href="">事务</a></li>
-					<li><a href="">视图</a></li>
-					<li><a href="">存储过程</a></li>
-				</ul>
-			</li>
-			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>Linux</a>
-				<ul>
-					<li><a href="">基本命令</a></li>
-					<li><a href="">网络配置</a></li>
-				</ul>
-			</li>
-			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>其他</a>
-			</li>
+			<?php
+ import('Class.Category', APP_NAME); $_nav_cate = M('cate')->order("sort")->select(); $_nav_cate = Category::unlimitedForLayer($_nav_cate); foreach($_nav_cate as $_nav_cate_v): extract($_nav_cate_v); $url = U('/c_' . $id); ?><li class='nav-lv1-li'>
+					<a href="<?php echo ($url); ?>" class='top-cate'><?php echo ($name); ?></a>
+						<ul>
+							<?php if(is_array($child)): foreach($child as $key=>$value): ?><li><a href="<?php echo U('/c_' . $value['id']);?>"><?php echo ($value["name"]); ?></a></li><?php endforeach; endif; ?>
+						</ul>
+					</if>	
+				</li><?php endforeach; ?>
 		</ul>
 	</div>
 	<div class='main'>
@@ -141,56 +108,17 @@
 		</div>
 	<!--主体右侧-->
 		<div class='main-right'>
+	<?php echo W('ShowHot', array('limit' => 5));?>
+	<?php echo W('ShowNew', array('limit' => 5));?>
+		
 			<dl>
-				<dt>热门博文</dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
+				<dt>test自定义标签</dt>
+				<?php $field = array("id", "title", "click");$_new_list = M("blog")->field($field)->order("time DESC")->limit(5)->select();foreach($_new_list as $_new_v):extract($_new_v);$url = U("/" . $id);?><dd>
+						<a href="<?php echo ($url); ?>"><?php echo ($title); ?></a>
+						<span>(<?php echo ($click); ?>)</span>
+					</dd><?php endforeach; ?>
 			</dl>
-
-			<dl>
-				<dt>最发布发</dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>(1024)</span>
-				</dd>
-			</dl>
-
+		
 			<dl>
 				<dt>友情连接</dt>
 				<dd>

@@ -1,0 +1,10 @@
+
+			<dl>
+				<dt>最发布发</dt>
+				<foreach name="newList" item="vnew">	
+					<dd>
+						<a href="{:U('/' . $vnew['id'])}">{$vnew.title}</a>
+						<span>({$vnew.click})</span>
+					</dd>
+				</foreach>
+			</dl>

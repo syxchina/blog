@@ -32,21 +32,18 @@
 	<div class='top-nav-wrap'>
 		<ul class='nav-lv1'>
 			<li class='nav-lv1-li'>
-				<a href="" class='top-cate'>博客首页</a>
+				<a href="__GROUP__" class='top-cate'>博客首页</a>
 			</li>
-			
+			<nav order="sort">
 				<li class='nav-lv1-li'>
-					<a href="" class='top-cate'>php</a>
-					
+					<a href="{$url}" class='top-cate'>{$name}</a>
 						<ul>
-							<nav limit="15" order="sort">
-								{$v.name}
-							</nav>
-							<li><a href="">Memched</a></li>
-							
+							<foreach name="child" item="value">
+							<li><a href="{:U('/c_' . $value['id'])}">{$value.name}</a></li>
+							</foreach>
 						</ul>
 					</if>	
 				</li>
-			</foreach>
+			</nav>
 		</ul>
 	</div>

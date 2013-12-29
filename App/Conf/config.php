@@ -16,6 +16,14 @@ return array(
 	// 装在验证码配置
 	'LOAD_EXT_CONFIG'   =>  'verify,water',
 	//'SHOW_PAGE_TRACE' => true,
+
+	'URL_MODEL' => 2,
+	'URL_ROUTER_ON' => true,
+	'URL_ROUTE_RULES' => array(
+		'/^c_(\d+)$/' => 'Index/List/index?id=:1',
+		':id\d' => 'Index/Show/index'
+		),
+
 );
 
 ?>
