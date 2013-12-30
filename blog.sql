@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.20, for Win32 (x86)
+-- MySQL dump 10.13  Distrib 5.5.24, for Win32 (x86)
 --
 -- Host: localhost    Database: blog
 -- ------------------------------------------------------
--- Server version	5.5.20
+-- Server version	5.5.24-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -93,6 +93,34 @@ INSERT INTO `bl_blog_attr` VALUES (4,1),(4,2);
 UNLOCK TABLES;
 
 --
+-- Table structure for table `bl_blogroll`
+--
+
+DROP TABLE IF EXISTS `bl_blogroll`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `bl_blogroll` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` char(20) NOT NULL DEFAULT '',
+  `address` char(30) NOT NULL DEFAULT '',
+  `status` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `sort` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `time` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `bl_blogroll`
+--
+
+LOCK TABLES `bl_blogroll` WRITE;
+/*!40000 ALTER TABLE `bl_blogroll` DISABLE KEYS */;
+INSERT INTO `bl_blogroll` VALUES (1,'百度','http://www.baidu.com',1,3,1388390679),(2,'google','http://www.google.com',1,2,1388390900),(3,'优酷','http://www.youku.com',1,1,1388394838);
+/*!40000 ALTER TABLE `bl_blogroll` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `bl_cate`
 --
 
@@ -142,7 +170,7 @@ CREATE TABLE `bl_user` (
 
 LOCK TABLES `bl_user` WRITE;
 /*!40000 ALTER TABLE `bl_user` DISABLE KEYS */;
-INSERT INTO `bl_user` VALUES (1,'admin','21232f297a57a5a743894a0e4a801fc3',1388036631,'127.0.0.1');
+INSERT INTO `bl_user` VALUES (1,'admin','21232f297a57a5a743894a0e4a801fc3',1388387708,'127.0.0.1');
 /*!40000 ALTER TABLE `bl_user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -155,4 +183,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-12-26 17:27:48
+-- Dump completed on 2013-12-30 17:25:10

@@ -1,0 +1,3011 @@
+[ 2013-12-30T13:57:02+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017890s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.014194s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.004868s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006324s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000670s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000916s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000584s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.195652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.195854s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001649s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005724s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2013-12-30T14:09:38+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006795s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.008368s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000614s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.001105s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000791s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.106434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106652s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001239s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001182s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006436s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2013-12-30T14:12:37+08:00 ] 127.0.0.1 /blog/c_2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002425s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006555s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006784s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000565s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000583s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000565s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005285s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2013-12-30T14:12:38+08:00 ] 127.0.0.1 /blog/c_3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006495s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006480s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000572s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000573s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000580s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.104457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104670s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000917s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000887s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2013-12-30T14:12:38+08:00 ] 127.0.0.1 /blog/c_3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002427s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006569s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006797s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000576s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000586s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000585s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075757s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000938s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005572s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2013-12-30T14:12:39+08:00 ] 127.0.0.1 /blog/c_4.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001555s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006742s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006686s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000572s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000575s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000583s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.080771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000935s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000904s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004143s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001181s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2013-12-30T14:12:39+08:00 ] 127.0.0.1 /blog/c_10.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.007857s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.007667s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000726s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000580s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000749s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084635s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000936s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000985s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000698s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001132s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2013-12-30T14:12:41+08:00 ] 127.0.0.1 /blog/c_2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.007007s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006461s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000574s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.002980s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000582s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072584s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000931s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000898s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004460s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2013-12-30T14:13:58+08:00 ] 127.0.0.1 /blog/5.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001639s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002906s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.011607s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.007663s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000577s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000577s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000613s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.103419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000926s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000909s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004320s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001174s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2013-12-30T14:13:59+08:00 ] 127.0.0.1 /blog/5.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001747s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006855s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006481s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000574s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000579s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000585s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071263s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000927s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000900s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004123s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2013-12-30T14:13:59+08:00 ] 127.0.0.1 /blog/4.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006299s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006531s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000575s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000578s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000635s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071395s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000920s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000896s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004108s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2013-12-30T14:19:40+08:00 ] 127.0.0.1 /blog/5.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006503s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.007922s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.007719s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000561s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000841s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000585s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.175934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176160s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001374s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004844s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001089s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009235s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2013-12-30T14:19:45+08:00 ] 127.0.0.1 /blog/11
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006382s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006576s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000575s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000608s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000590s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001360s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000915s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004564s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2013-12-30T14:19:49+08:00 ] 127.0.0.1 /blog/c_1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001561s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005059s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006345s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.008032s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000583s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000609s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000594s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080071s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001292s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001499s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2013-12-30T14:54:21+08:00 ] 127.0.0.1 /blog/c_1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002084s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.007624s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.007027s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000617s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000586s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.001618s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094091s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001377s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001146s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001125s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005502s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001553s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2013-12-30T14:54:24+08:00 ] 127.0.0.1 /blog/c_2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.007381s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006729s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000575s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000576s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000584s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077785s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001270s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001056s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001027s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004960s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2013-12-30T15:14:56+08:00 ] 127.0.0.1 /blog/c_2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.007385s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.007277s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000620s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000584s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000588s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001839s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001779s ]
+
+[ 2013-12-30T15:15:01+08:00 ] 127.0.0.1 /blog/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+
+[ 2013-12-30T15:15:01+08:00 ] 127.0.0.1 /blog/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001725s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001185s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005572s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2013-12-30T15:15:02+08:00 ] 127.0.0.1 /blog/admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006119s ]
+
+[ 2013-12-30T15:15:08+08:00 ] 127.0.0.1 /blog/admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.007700s ]
+SQL: SELECT * FROM `bl_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.037416s ]
+SQL: UPDATE `bl_user` SET `logintime`=1388387708,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.070608s ]
+
+[ 2013-12-30T15:15:11+08:00 ] 127.0.0.1 /blog/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029863s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002026s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001115s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005869s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2013-12-30T15:15:20+08:00 ] 127.0.0.1 /blog/admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.006526s ]
+SQL: SELECT `id`,`title`,`time`,`click`,`cid` FROM `bl_blog` WHERE ( `del` = 0 )  [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `bl_attr` [ RunTime:0.006085s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM bl_blog_attr AS a, bl_attr AS b WHERE a.aid = b.id AND a. bid='5' [ RunTime:0.017712s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.005219s ]
+SQL: SELECT `name` FROM `bl_cate` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.000584s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM bl_blog_attr AS a, bl_attr AS b WHERE a.aid = b.id AND a. bid='4' [ RunTime:0.000701s ]
+SQL: SELECT `name` FROM `bl_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\wamp\www\blog\App\Runtime\Cache\Admin\0f2f4c516e2174cf5fc2ef24f941af07.php 第 43 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\wamp\www\blog\App\Runtime\Cache\Admin\0f2f4c516e2174cf5fc2ef24f941af07.php 第 43 行.
+NOTIC: [8] Use of undefined constant trach - assumed 'trach' E:\wamp\www\blog\App\Runtime\Cache\Admin\0f2f4c516e2174cf5fc2ef24f941af07.php 第 50 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023393s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001231s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001280s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001186s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2013-12-30T15:15:27+08:00 ] 127.0.0.1 /blog/admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.007132s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `bl_attr` [ RunTime:0.010782s ]
+SQL: SELECT * FROM `bl_attr`  [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017640s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000910s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000882s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004143s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2013-12-30T15:18:15+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 14 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 31 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006312s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.014855s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000573s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000579s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000590s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.095390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001964s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015587s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002209s ]
+
+[ 2013-12-30T15:18:22+08:00 ] 127.0.0.1 /blog/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018472s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000870s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000864s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004007s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2013-12-30T15:23:54+08:00 ] 127.0.0.1 /blog/admin/Blogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010924s ]
+
+[ 2013-12-30T15:26:59+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014054s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001079s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001121s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001136s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005146s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2013-12-30T15:29:59+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant GROUP - assumed 'GROUP' E:\wamp\www\blog\App\Runtime\Cache\Admin\bc8bd3fe65eb74bd5cfec96bd9913065.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017145s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001334s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001118s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005194s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2013-12-30T15:31:34+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant GROUP - assumed 'GROUP' E:\wamp\www\blog\App\Runtime\Cache\Admin\bc8bd3fe65eb74bd5cfec96bd9913065.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012850s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000829s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000871s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003922s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2013-12-30T15:31:48+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant GROUP - assumed 'GROUP' E:\wamp\www\blog\App\Runtime\Cache\Admin\bc8bd3fe65eb74bd5cfec96bd9913065.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000830s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000871s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003927s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2013-12-30T15:33:44+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant GROUP - assumed 'GROUP' E:\wamp\www\blog\App\Runtime\Cache\Admin\bc8bd3fe65eb74bd5cfec96bd9913065.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016408s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001476s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001604s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001310s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006335s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001412s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2013-12-30T15:37:06+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant GROUP - assumed 'GROUP' E:\wamp\www\blog\App\Runtime\Cache\Admin\bc8bd3fe65eb74bd5cfec96bd9913065.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013256s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001285s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001409s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009982s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2013-12-30T15:39:00+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant GROUP - assumed 'GROUP' E:\wamp\www\blog\App\Runtime\Cache\Admin\bc8bd3fe65eb74bd5cfec96bd9913065.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013074s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000884s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003958s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001149s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2013-12-30T15:39:21+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant GROUP - assumed 'GROUP' E:\wamp\www\blog\App\Runtime\Cache\Admin\bc8bd3fe65eb74bd5cfec96bd9913065.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013555s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001095s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005030s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001402s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2013-12-30T15:41:13+08:00 ] 127.0.0.1 /blog/GROUP/Blogroll/addBlogrollHandle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+ERR: 无法加载模块:GROUP
+
+[ 2013-12-30T15:41:38+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002166s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002444s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001078s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001256s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001433s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2013-12-30T15:41:40+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002225s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014131s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000832s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003937s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2013-12-30T15:41:40+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012037s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001042s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000991s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004284s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2013-12-30T15:41:41+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogrollHandle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+
+[ 2013-12-30T15:57:12+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogrollHandle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+
+[ 2013-12-30T16:00:46+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogrollHandle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002820s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007984s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.005870s ]
+ERR: 1146:Table 'blog.bl_blogroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bl_blogroll`
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015481s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001088s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004975s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002581s ]
+
+[ 2013-12-30T16:02:02+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001554s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014411s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000843s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2013-12-30T16:02:30+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogrollHandle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007990s ]
+ERR: 1146:Table 'blog.bl_blogroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bl_blogroll`
+SQL: INSERT INTO `bl_blogroll` (`name`,`address`,`status`,`sort`,`time`) VALUES ('百度','http://www.baidu.com',1,100,1388390550) [ RunTime:0.000709s ]
+ERR: 1146:Table 'blog.bl_blogroll' doesn't exist
+ [ SQL语句 ] : INSERT INTO `bl_blogroll` (`name`,`address`,`status`,`sort`,`time`) VALUES ('百度','http://www.baidu.com',1,100,1388390550)
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012740s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000848s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000887s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003993s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001109s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2013-12-30T16:02:55+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogrollHandle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001960s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007917s ]
+ERR: 1146:Table 'blog.bl_blogroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bl_blogroll`
+SQL: INSERT INTO `bl_blogroll` (`name`,`address`,`status`,`sort`,`time`) VALUES ('百度','http://www.baidu.com',1,100,1388390574) [ RunTime:0.000775s ]
+ERR: 1146:Table 'blog.bl_blogroll' doesn't exist
+ [ SQL语句 ] : INSERT INTO `bl_blogroll` (`name`,`address`,`status`,`sort`,`time`) VALUES ('百度','http://www.baidu.com',1,100,1388390574)
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001135s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001145s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005060s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2013-12-30T16:04:39+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogrollHandle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009948s ]
+SQL: INSERT INTO `bl_blogroll` (`name`,`address`,`status`,`sort`,`time`) VALUES ('百度','http://www.baidu.com',1,100,1388390679) [ RunTime:0.016944s ]
+NOTIC: [8] Use of undefined constant GROUP_NAMe - assumed 'GROUP_NAMe' E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014377s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000887s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003991s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001119s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2013-12-30T16:04:40+08:00 ] 127.0.0.1 /blog/GROUP_NAMe/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+ERR: 无法加载模块:GROUP_NAMe
+
+[ 2013-12-30T16:05:11+08:00 ] 127.0.0.1 /blog/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018898s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001334s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000920s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005244s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001375s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2013-12-30T16:05:15+08:00 ] 127.0.0.1 /blog/admin/Category/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+ERR: 非法操作:addBlogroll
+
+[ 2013-12-30T16:06:22+08:00 ] 127.0.0.1 /blog/admin/Category/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+ERR: 非法操作:addBlogroll
+
+[ 2013-12-30T16:06:23+08:00 ] 127.0.0.1 /blog/admin/Category/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+ERR: 非法操作:addBlogroll
+
+[ 2013-12-30T16:06:23+08:00 ] 127.0.0.1 /blog/admin/Category/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+ERR: 非法操作:addBlogroll
+
+[ 2013-12-30T16:06:23+08:00 ] 127.0.0.1 /blog/admin/Category/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+ERR: 非法操作:addBlogroll
+
+[ 2013-12-30T16:06:23+08:00 ] 127.0.0.1 /blog/admin/Category/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+ERR: 非法操作:addBlogroll
+
+[ 2013-12-30T16:06:25+08:00 ] 127.0.0.1 /blog/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016888s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000880s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000679s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004054s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001127s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2013-12-30T16:06:27+08:00 ] 127.0.0.1 /blog/admin/Category/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+ERR: 非法操作:addBlogroll
+
+[ 2013-12-30T16:06:28+08:00 ] 127.0.0.1 /blog/admin/Category/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+ERR: 非法操作:addBlogroll
+
+[ 2013-12-30T16:07:16+08:00 ] 127.0.0.1 /blog/admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022573s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002016s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001116s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005902s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001361s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2013-12-30T16:07:17+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+
+[ 2013-12-30T16:07:25+08:00 ] 127.0.0.1 /blog/admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016428s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000885s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000877s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004035s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001122s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2013-12-30T16:07:26+08:00 ] 127.0.0.1 /blog/admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031985s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001063s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000895s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2013-12-30T16:07:28+08:00 ] 127.0.0.1 /blog/admin/Category/addCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002654s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024603s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000841s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000881s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003974s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2013-12-30T16:07:30+08:00 ] 127.0.0.1 /blog/admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027760s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000868s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001860s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005772s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001125s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2013-12-30T16:07:31+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022353s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001048s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001236s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005299s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2013-12-30T16:08:20+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogrollHandle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.008467s ]
+SQL: INSERT INTO `bl_blogroll` (`name`,`address`,`status`,`sort`,`time`) VALUES ('google','http://www.google.com',1,100,1388390900) [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012511s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000879s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004006s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2013-12-30T16:08:21+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+
+[ 2013-12-30T16:08:27+08:00 ] 127.0.0.1 /blog/admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.012140s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort asc  [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000916s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000871s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004079s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2013-12-30T16:08:29+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001440s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+
+[ 2013-12-30T16:10:01+08:00 ] 127.0.0.1 /blog/admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003697s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024860s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001144s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001122s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000919s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005153s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2013-12-30T16:10:02+08:00 ] 127.0.0.1 /blog/admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.014109s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort asc  [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025493s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000947s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000881s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004117s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2013-12-30T16:10:05+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009387s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000561s ]
+
+[ 2013-12-30T16:18:09+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007825s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000577s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019323s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001546s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001584s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007360s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2013-12-30T16:18:16+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009566s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000650s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012866s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000853s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000872s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2013-12-30T16:18:17+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009659s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000912s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000858s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004010s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001121s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2013-12-30T16:18:33+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007721s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000814s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000869s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000890s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004064s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001127s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2013-12-30T16:19:06+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001659s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.011327s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000554s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014063s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000896s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004025s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001342s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2013-12-30T16:26:09+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002208s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009579s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000559s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Runtime\Cache\Admin\1b231ab75fa586c34c41c1f06209a080.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018227s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001120s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001140s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005029s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2013-12-30T16:26:11+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.012725s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000821s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Runtime\Cache\Admin\1b231ab75fa586c34c41c1f06209a080.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026340s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000889s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000888s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2013-12-30T16:26:13+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016930s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000855s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000886s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004912s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001332s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001541s ]
+
+[ 2013-12-30T16:26:14+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006560s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Runtime\Cache\Admin\1b231ab75fa586c34c41c1f06209a080.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000874s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004021s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2013-12-30T16:26:16+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007465s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000554s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Runtime\Cache\Admin\1b231ab75fa586c34c41c1f06209a080.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018871s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000881s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000889s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004034s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001120s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2013-12-30T16:26:22+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007539s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000554s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Runtime\Cache\Admin\1b231ab75fa586c34c41c1f06209a080.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000886s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004021s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2013-12-30T16:26:23+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002615s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006420s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000552s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Runtime\Cache\Admin\1b231ab75fa586c34c41c1f06209a080.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019836s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000911s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004864s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2013-12-30T16:26:23+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.008059s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000550s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Runtime\Cache\Admin\1b231ab75fa586c34c41c1f06209a080.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000889s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000891s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004047s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001126s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2013-12-30T16:26:23+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.008512s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000548s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Runtime\Cache\Admin\1b231ab75fa586c34c41c1f06209a080.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000875s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001660s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000696s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004797s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2013-12-30T16:26:23+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002696s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007453s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.001340s ]
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blogroll E:\wamp\www\blog\App\Runtime\Cache\Admin\1b231ab75fa586c34c41c1f06209a080.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016846s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000870s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000889s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007407s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2013-12-30T16:26:58+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.010638s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016487s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000878s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000885s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004270s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001125s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2013-12-30T16:27:34+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009241s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015944s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001933s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005571s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2013-12-30T16:27:50+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006395s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005504s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001126s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2013-12-30T16:29:08+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002207s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006925s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017943s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001124s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001082s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005188s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001389s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001606s ]
+
+[ 2013-12-30T16:32:34+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006670s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018521s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001119s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001408s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2013-12-30T16:32:35+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006469s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025409s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000888s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2013-12-30T16:32:35+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006518s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018855s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000860s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000881s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005064s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2013-12-30T16:32:35+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006703s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019464s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000869s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004019s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2013-12-30T16:32:44+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006482s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.004646s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018156s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000880s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000881s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2013-12-30T16:34:50+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.012482s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019140s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001122s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001138s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000930s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2013-12-30T16:34:53+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007508s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016123s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000992s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007745s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001741s ]
+
+[ 2013-12-30T16:34:53+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006596s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021145s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000856s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000876s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000673s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003975s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001121s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2013-12-30T16:34:53+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002717s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009167s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019141s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000858s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001039s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007432s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002206s ]
+
+[ 2013-12-30T16:34:53+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002958s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006521s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.001449s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015900s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000855s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003990s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2013-12-30T16:35:03+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.012557s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016202s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000902s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008501s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2013-12-30T16:35:03+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.010782s ]
+SQL: SELECT * FROM `bl_blogroll`  [ RunTime:0.001106s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016830s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000885s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004705s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001168s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2013-12-30T16:35:06+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002431s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+
+[ 2013-12-30T16:53:28+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002657s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009523s ]
+ERR: Model:setFild您所请求的方法不存在！
+
+[ 2013-12-30T16:53:44+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006407s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=1 WHERE ( id=1 ) [ RunTime:0.000702s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=2 WHERE ( id=2 ) [ RunTime:0.000528s ]
+
+[ 2013-12-30T16:53:47+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007289s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017992s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001112s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001252s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001138s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005416s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2013-12-30T16:53:50+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.012190s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017026s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004081s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2013-12-30T16:54:03+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009795s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=10 WHERE ( id=2 ) [ RunTime:0.000898s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=11 WHERE ( id=1 ) [ RunTime:0.000830s ]
+
+[ 2013-12-30T16:54:07+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009959s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016757s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001231s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000896s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004394s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001145s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2013-12-30T16:59:33+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.011189s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 18 行.
+SQL: UPDATE `bl_blogroll` SET `sort`=11 WHERE ( `id` = null ) [ RunTime:0.018310s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\blog\App\Modules\Admin\Action\BlogrollAction.class.php 第 18 行.
+SQL: UPDATE `bl_blogroll` SET `sort`=101 WHERE ( `id` = null ) [ RunTime:0.000697s ]
+
+[ 2013-12-30T16:59:33+08:00 ] 127.0.0.1 /blog/blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+ERR: 无法加载模块:blog
+
+[ 2013-12-30T17:01:20+08:00 ] 127.0.0.1 /blog/blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+ERR: 无法加载模块:blog
+
+[ 2013-12-30T17:01:24+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.008856s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=11 WHERE ( `id` = 1 ) [ RunTime:0.000653s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=101 WHERE ( `id` = 2 ) [ RunTime:0.000541s ]
+
+[ 2013-12-30T17:01:24+08:00 ] 127.0.0.1 /blog/blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+ERR: 无法加载模块:blog
+
+[ 2013-12-30T17:01:26+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007623s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.001486s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020163s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001122s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002055s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000931s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005949s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003180s ]
+
+[ 2013-12-30T17:01:27+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007608s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000860s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000874s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003982s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007277s ]
+
+[ 2013-12-30T17:01:35+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003734s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.012374s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=101 WHERE ( `id` = 2 ) [ RunTime:0.000870s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=11 WHERE ( `id` = 1 ) [ RunTime:0.000721s ]
+
+[ 2013-12-30T17:01:36+08:00 ] 127.0.0.1 /blog/blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+ERR: 无法加载模块:blog
+
+[ 2013-12-30T17:02:29+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001449s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006857s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=1 WHERE ( `id` = 2 ) [ RunTime:0.000579s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=2 WHERE ( `id` = 1 ) [ RunTime:0.000527s ]
+
+[ 2013-12-30T17:02:29+08:00 ] 127.0.0.1 /blog/blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+ERR: 无法加载模块:blog
+
+[ 2013-12-30T17:03:55+08:00 ] 127.0.0.1 /blog/blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+ERR: 无法加载模块:blog
+
+[ 2013-12-30T17:03:55+08:00 ] 127.0.0.1 /blog/blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001411s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+ERR: 无法加载模块:blog
+
+[ 2013-12-30T17:03:55+08:00 ] 127.0.0.1 /blog/blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+ERR: 无法加载模块:blog
+
+[ 2013-12-30T17:03:58+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006431s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=1 WHERE ( `id` = 2 ) [ RunTime:0.000548s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=2 WHERE ( `id` = 1 ) [ RunTime:0.000505s ]
+
+[ 2013-12-30T17:05:18+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009603s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=1 WHERE ( `id` = 2 ) [ RunTime:0.000555s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=2 WHERE ( `id` = 1 ) [ RunTime:0.000503s ]
+
+[ 2013-12-30T17:05:18+08:00 ] 127.0.0.1 /blog/blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+ERR: 无法加载模块:blog
+
+[ 2013-12-30T17:05:37+08:00 ] 127.0.0.1 /blog/admin/Attribute/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `bl_attr` [ RunTime:0.006645s ]
+SQL: SELECT * FROM `bl_attr`  [ RunTime:0.000836s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019378s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001087s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001139s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005177s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005279s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005484s ]
+
+[ 2013-12-30T17:05:39+08:00 ] 127.0.0.1 /blog/admin/Attribute/addAttr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011866s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000854s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000879s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001411s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004692s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2013-12-30T17:05:40+08:00 ] 127.0.0.1 /blog/admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020922s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000880s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000874s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001832s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2013-12-30T17:05:44+08:00 ] 127.0.0.1 /blog/admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.007865s ]
+SQL: SELECT `id`,`title`,`time`,`click`,`cid` FROM `bl_blog` WHERE ( `del` = 0 )  [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `bl_attr` [ RunTime:0.006564s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM bl_blog_attr AS a, bl_attr AS b WHERE a.aid = b.id AND a. bid='5' [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.010442s ]
+SQL: SELECT `name` FROM `bl_cate` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.000734s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM bl_blog_attr AS a, bl_attr AS b WHERE a.aid = b.id AND a. bid='4' [ RunTime:0.001022s ]
+SQL: SELECT `name` FROM `bl_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\wamp\www\blog\App\Runtime\Cache\Admin\0f2f4c516e2174cf5fc2ef24f941af07.php 第 43 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\wamp\www\blog\App\Runtime\Cache\Admin\0f2f4c516e2174cf5fc2ef24f941af07.php 第 43 行.
+NOTIC: [8] Use of undefined constant trach - assumed 'trach' E:\wamp\www\blog\App\Runtime\Cache\Admin\0f2f4c516e2174cf5fc2ef24f941af07.php 第 50 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020690s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000915s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000899s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001034s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004437s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001505s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2013-12-30T17:05:45+08:00 ] 127.0.0.1 /blog/admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.014806s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `bl_attr` [ RunTime:0.007341s ]
+SQL: SELECT * FROM `bl_attr`  [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017075s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000893s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000882s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004433s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001520s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2013-12-30T17:05:45+08:00 ] 127.0.0.1 /blog/admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006561s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `bl_attr` [ RunTime:0.007066s ]
+SQL: SELECT * FROM `bl_attr`  [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020243s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001331s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001113s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2013-12-30T17:05:48+08:00 ] 127.0.0.1 /blog/admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.018663s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort asc  [ RunTime:0.000963s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021030s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001251s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000871s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001016s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005109s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2013-12-30T17:05:53+08:00 ] 127.0.0.1 /blog/admin/Category/sortCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.014281s ]
+SQL: UPDATE `bl_cate` SET `sort`=1 WHERE ( `id` = 1 ) [ RunTime:0.128941s ]
+SQL: UPDATE `bl_cate` SET `sort`=2 WHERE ( `id` = 2 ) [ RunTime:0.041062s ]
+SQL: UPDATE `bl_cate` SET `sort`=3 WHERE ( `id` = 3 ) [ RunTime:0.051774s ]
+SQL: UPDATE `bl_cate` SET `sort`=1 WHERE ( `id` = 8 ) [ RunTime:0.038559s ]
+SQL: UPDATE `bl_cate` SET `sort`=2 WHERE ( `id` = 9 ) [ RunTime:0.133616s ]
+SQL: UPDATE `bl_cate` SET `sort`=4 WHERE ( `id` = 4 ) [ RunTime:0.106846s ]
+SQL: UPDATE `bl_cate` SET `sort`=1 WHERE ( `id` = 10 ) [ RunTime:0.062808s ]
+SQL: UPDATE `bl_cate` SET `sort`=2 WHERE ( `id` = 11 ) [ RunTime:0.046952s ]
+SQL: UPDATE `bl_cate` SET `sort`=3 WHERE ( `id` = 12 ) [ RunTime:0.044326s ]
+SQL: UPDATE `bl_cate` SET `sort`=5 WHERE ( `id` = 5 ) [ RunTime:0.037812s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 13 ) [ RunTime:0.049374s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 14 ) [ RunTime:0.041068s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 15 ) [ RunTime:0.040862s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 16 ) [ RunTime:0.053975s ]
+SQL: UPDATE `bl_cate` SET `sort`=6 WHERE ( `id` = 6 ) [ RunTime:0.044620s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 17 ) [ RunTime:0.049389s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 18 ) [ RunTime:0.041065s ]
+SQL: UPDATE `bl_cate` SET `sort`=7 WHERE ( `id` = 7 ) [ RunTime:0.042913s ]
+
+[ 2013-12-30T17:05:53+08:00 ] 127.0.0.1 /blog/admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001477s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.008040s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort asc  [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019759s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006824s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001065s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011471s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002364s ]
+
+[ 2013-12-30T17:05:54+08:00 ] 127.0.0.1 /blog/admin/Category/sortCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.011572s ]
+SQL: UPDATE `bl_cate` SET `sort`=1 WHERE ( `id` = 1 ) [ RunTime:0.053153s ]
+SQL: UPDATE `bl_cate` SET `sort`=2 WHERE ( `id` = 2 ) [ RunTime:0.041062s ]
+SQL: UPDATE `bl_cate` SET `sort`=3 WHERE ( `id` = 3 ) [ RunTime:0.049373s ]
+SQL: UPDATE `bl_cate` SET `sort`=1 WHERE ( `id` = 8 ) [ RunTime:0.041298s ]
+SQL: UPDATE `bl_cate` SET `sort`=2 WHERE ( `id` = 9 ) [ RunTime:0.081259s ]
+SQL: UPDATE `bl_cate` SET `sort`=4 WHERE ( `id` = 4 ) [ RunTime:0.050512s ]
+SQL: UPDATE `bl_cate` SET `sort`=1 WHERE ( `id` = 10 ) [ RunTime:0.041058s ]
+SQL: UPDATE `bl_cate` SET `sort`=2 WHERE ( `id` = 11 ) [ RunTime:0.041072s ]
+SQL: UPDATE `bl_cate` SET `sort`=3 WHERE ( `id` = 12 ) [ RunTime:0.049372s ]
+SQL: UPDATE `bl_cate` SET `sort`=5 WHERE ( `id` = 5 ) [ RunTime:0.045259s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 13 ) [ RunTime:0.042781s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 14 ) [ RunTime:0.049262s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 15 ) [ RunTime:0.041064s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 16 ) [ RunTime:0.050547s ]
+SQL: UPDATE `bl_cate` SET `sort`=6 WHERE ( `id` = 6 ) [ RunTime:0.039943s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 17 ) [ RunTime:0.041055s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 18 ) [ RunTime:0.049375s ]
+SQL: UPDATE `bl_cate` SET `sort`=7 WHERE ( `id` = 7 ) [ RunTime:0.041069s ]
+
+[ 2013-12-30T17:05:54+08:00 ] 127.0.0.1 /blog/admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.008195s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort asc  [ RunTime:0.000852s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019605s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001248s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004738s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002071s ]
+
+[ 2013-12-30T17:06:07+08:00 ] 127.0.0.1 /blog/admin/Category/sortCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.008761s ]
+SQL: UPDATE `bl_cate` SET `sort`=1 WHERE ( `id` = 1 ) [ RunTime:0.051731s ]
+SQL: UPDATE `bl_cate` SET `sort`=2 WHERE ( `id` = 2 ) [ RunTime:0.041058s ]
+SQL: UPDATE `bl_cate` SET `sort`=3 WHERE ( `id` = 3 ) [ RunTime:0.049529s ]
+SQL: UPDATE `bl_cate` SET `sort`=1 WHERE ( `id` = 8 ) [ RunTime:0.040913s ]
+SQL: UPDATE `bl_cate` SET `sort`=2 WHERE ( `id` = 9 ) [ RunTime:0.041043s ]
+SQL: UPDATE `bl_cate` SET `sort`=4 WHERE ( `id` = 4 ) [ RunTime:0.049695s ]
+SQL: UPDATE `bl_cate` SET `sort`=1 WHERE ( `id` = 10 ) [ RunTime:0.144541s ]
+SQL: UPDATE `bl_cate` SET `sort`=2 WHERE ( `id` = 11 ) [ RunTime:0.062255s ]
+SQL: UPDATE `bl_cate` SET `sort`=3 WHERE ( `id` = 12 ) [ RunTime:0.049119s ]
+SQL: UPDATE `bl_cate` SET `sort`=5 WHERE ( `id` = 5 ) [ RunTime:0.041073s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 13 ) [ RunTime:0.040825s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 14 ) [ RunTime:0.052229s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 15 ) [ RunTime:0.038169s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 16 ) [ RunTime:0.083076s ]
+SQL: UPDATE `bl_cate` SET `sort`=6 WHERE ( `id` = 6 ) [ RunTime:0.040613s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 17 ) [ RunTime:0.041052s ]
+SQL: UPDATE `bl_cate` SET `sort`=100 WHERE ( `id` = 18 ) [ RunTime:0.049906s ]
+SQL: UPDATE `bl_cate` SET `sort`=7 WHERE ( `id` = 7 ) [ RunTime:0.032204s ]
+
+[ 2013-12-30T17:06:07+08:00 ] 127.0.0.1 /blog/admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.011130s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort asc  [ RunTime:0.000915s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001869s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005754s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001508s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2013-12-30T17:07:06+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016365s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001192s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010492s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002032s ]
+
+[ 2013-12-30T17:07:07+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.006526s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024273s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001204s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001039s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001019s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004854s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002182s ]
+
+[ 2013-12-30T17:07:12+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009246s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=1 WHERE ( `id` = 1 ) [ RunTime:0.000583s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=2 WHERE ( `id` = 2 ) [ RunTime:0.000532s ]
+
+[ 2013-12-30T17:07:12+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.008782s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001197s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000870s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004626s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2013-12-30T17:13:28+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019789s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001284s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001484s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001141s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001797s ]
+
+[ 2013-12-30T17:13:59+08:00 ] 127.0.0.1 /blog/admin/Blogroll/addBlogrollHandle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.008331s ]
+SQL: INSERT INTO `bl_blogroll` (`name`,`address`,`status`,`sort`,`time`) VALUES ('优酷','http://www.youku.com',1,100,1388394838) [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014688s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000882s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001345s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2013-12-30T17:14:00+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007945s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018121s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001191s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000892s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005105s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001479s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2013-12-30T17:18:21+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002375s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.008990s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=3 WHERE ( `id` = 3 ) [ RunTime:0.000594s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=2 WHERE ( `id` = 2 ) [ RunTime:0.000534s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=1 WHERE ( `id` = 1 ) [ RunTime:0.000508s ]
+
+[ 2013-12-30T17:18:21+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.010720s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.000932s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001341s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001138s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005359s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001607s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2013-12-30T17:18:25+08:00 ] 127.0.0.1 /blog/admin/Blogroll/sort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009026s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=1 WHERE ( `id` = 3 ) [ RunTime:0.000570s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=2 WHERE ( `id` = 2 ) [ RunTime:0.000518s ]
+SQL: UPDATE `bl_blogroll` SET `sort`=3 WHERE ( `id` = 1 ) [ RunTime:0.000640s ]
+
+[ 2013-12-30T17:18:26+08:00 ] 127.0.0.1 /blog/admin/Blogroll/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.057237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.057536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.013119s ]
+SQL: SELECT * FROM `bl_blogroll` ORDER BY sort DESC  [ RunTime:0.000911s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000857s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000888s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004023s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001763s ]
+
