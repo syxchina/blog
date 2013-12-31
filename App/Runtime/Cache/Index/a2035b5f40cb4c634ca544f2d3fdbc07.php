@@ -56,316 +56,22 @@
 <!--主体-->
 	<div class='main'>
 		<div class='main-left'>
-			<p>后盾博文</p>
-			<dl>
-				<dt>PHP<a href="">更多>></a></dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-			</dl>
-			<dl>
-				<dt>PHP<a href="">更多>></a></dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-			</dl>
-			<dl>
-				<dt>PHP<a href="">更多>></a></dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-			</dl>
-			<dl>
-				<dt>PHP<a href="">更多>></a></dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-			</dl>
-			<dl>
-				<dt>PHP<a href="">更多>></a></dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-			</dl>
-			<dl>
-				<dt>PHP<a href="">更多>></a></dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-			</dl>
-			<dl>
-				<dt>PHP<a href="">更多>></a></dt>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-				<dd>
-					<a href="">对象的产生与生命周期</a>
-					<span>06/06</span>
-				</dd>
-			</dl>
+			<p>博文</p>
+			<?php if(is_array($topCate)): foreach($topCate as $key=>$v): ?><dl>
+					<dt><?php echo ($v["name"]); ?><a href="<?php echo U('/c_' . $v['id']);?>">更多>></a></dt>
+					<?php if(is_array($v["blog"])): foreach($v["blog"] as $key=>$bloglist): ?><dd>
+							<a href="<?php echo U('/' . $bloglist['id']);?>"><?php echo ($bloglist["title"]); ?></a>
+							<span><?php echo (date('Y-m-d', $bloglist["time"])); ?></span>
+						</dd><?php endforeach; endif; ?>
+				</dl><?php endforeach; endif; ?>
 		</div>
-	<div class='main-right'>
+		<div class='main-right'>
 	<?php echo W('ShowHot', array('limit' => 5));?>
 	<?php echo W('ShowNew', array('limit' => 5));?>
 		
 			<dl>
 				<dt>test自定义标签</dt>
-				<?php $field = array("id", "title", "click");$_new_list = M("blog")->field($field)->order("time DESC")->limit(5)->select();foreach($_new_list as $_new_v):extract($_new_v);$url = U("/" . $id);?><dd>
+				<?php $field = array("id", "title", "click");$where = array("del" => 0);$_new_list = M("blog")->field($field)->where($where)->order("time DESC")->limit(5)->select();foreach($_new_list as $_new_v):extract($_new_v);$url = U("/" . $id);?><dd>
 						<a href="<?php echo ($url); ?>"><?php echo ($title); ?></a>
 						<span>(<?php echo ($click); ?>)</span>
 					</dd><?php endforeach; ?>
@@ -373,18 +79,13 @@
 		
 			<dl>
 				<dt>友情连接</dt>
-				<dd>
-					<a href="">后盾网</a>
-				</dd>
-
-				<dd>
-					<a href="">后盾网论坛</a>
-				</dd>
-				<dd>
-					<a href="">后盾网学习社区</a>
-				</dd>
+				<?php $field = array("id", "name", "address");$where = array("status" => 1);$_nav_blogroll = M("blogroll")->field($field)->where($where)->order("sort DESC")->limit(10)->select();foreach($_nav_blogroll as $_blogroll_v):extract($_blogroll_v);?><dd>
+						<a href="<?php echo ($address); ?>" target="_blank"><?php echo ($name); ?></a>
+					</dd><?php endforeach;?>
 			</dl>
+			<?php echo W('ShowBlogroll', array('limit' => 5, 'order' => 'DESC'));?>
 		</div>
+	</div>
 	</div>
 	<div class='bottom'>
 		<div></div>

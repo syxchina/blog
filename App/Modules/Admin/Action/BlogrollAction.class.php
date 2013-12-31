@@ -7,7 +7,7 @@
 	{
 		// 友情链接列表
 		public function index(){
-			$this->blogroll = M('blogroll')->order('sort DESC')->select();
+			$this->blogroll = M('blogroll')->order('sort DESC')->where(array('status' => 1))->select();
 			$this->display();
 		}
 

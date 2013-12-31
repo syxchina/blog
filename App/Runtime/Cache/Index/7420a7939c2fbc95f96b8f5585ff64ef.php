@@ -56,67 +56,19 @@
 <!--主体-->
 	<div class='main'>
 		<div class='main-left'>
-			<dl>
-				<dt>PHP -- 对象</dt>
-				<dd class='channel'>对象的产生与生命周期</dd>
-				<dd class='info'>
-					<span class='time'>发布于：2012年12月21日 12:12:12</span>
-					<span class='click'>点击：1024</span>
-				</dd>
-				<dd class='content'>对象的产生与生命周期</dd>
-				<dd class='read'>
-					<a href="">阅读全文>></a>
-				</dd>
-			</dl>
-
-			<dl>
-				<dt>PHP -- 对象</dt>
-				<dd class='channel'>对象的产生与生命周期</dd>
-				<dd class='info'>
-					<span class='time'>发布于：2012年12月21日 12:12:12</span>
-					<span class='click'>点击：1024</span>
-				</dd>
-				<dd class='content'>对象的产生与生命周期</dd>
-				<dd class='read'>
-					<a href="">阅读全文>></a>
-				</dd>
-			</dl>
-			<dl>
-				<dt>PHP -- 对象</dt>
-				<dd class='channel'>对象的产生与生命周期</dd>
-				<dd class='info'>
-					<span class='time'>发布于：2012年12月21日 12:12:12</span>
-					<span class='click'>点击：1024</span>
-				</dd>
-				<dd class='content'>对象的产生与生命周期</dd>
-				<dd class='read'>
-					<a href="">阅读全文>></a>
-				</dd>
-			</dl>
-			<dl>
-				<dt>PHP -- 对象</dt>
-				<dd class='channel'>对象的产生与生命周期</dd>
-				<dd class='info'>
-					<span class='time'>发布于：2012年12月21日 12:12:12</span>
-					<span class='click'>点击：1024</span>
-				</dd>
-				<dd class='content'>对象的产生与生命周期</dd>
-				<dd class='read'>
-					<a href="">阅读全文>></a>
-				</dd>
-			</dl>
-			<dl>
-				<dt>PHP -- 对象</dt>
-				<dd class='channel'>对象的产生与生命周期</dd>
-				<dd class='info'>
-					<span class='time'>发布于：2012年12月21日 12:12:12</span>
-					<span class='click'>点击：1024</span>
-				</dd>
-				<dd class='content'>对象的产生与生命周期</dd>
-				<dd class='read'>
-					<a href="">阅读全文>></a>
-				</dd>
-			</dl>
+			<?php if(is_array($blog)): foreach($blog as $key=>$v): ?><dl>
+					<dt><?php echo ($v["name"]); ?></dt>
+					<dd class='channel'><?php echo ($v["title"]); ?></dd>
+					<dd class='info'>
+						<span class='time'>发布于：<?php echo (date('Y年m月d日 H:i:s', $v["time"])); ?></span>
+						<span class='click'>点击：<?php echo ($v["click"]); ?></span>
+					</dd>
+					<dd class='content'><?php echo ($v["summary"]); ?></dd>
+					<dd class='read'>
+						<a href="<?php echo U('/' . $v['id']);?>">阅读全文>></a>
+					</dd>
+				</dl><?php endforeach; endif; ?>
+			<p><?php echo ($page); ?></p>	
 		</div>
 	<!--主体右侧-->
 <div class='main-right'>
@@ -125,7 +77,7 @@
 		
 			<dl>
 				<dt>test自定义标签</dt>
-				<?php $field = array("id", "title", "click");$_new_list = M("blog")->field($field)->order("time DESC")->limit(5)->select();foreach($_new_list as $_new_v):extract($_new_v);$url = U("/" . $id);?><dd>
+				<?php $field = array("id", "title", "click");$where = array("del" => 0);$_new_list = M("blog")->field($field)->where($where)->order("time DESC")->limit(5)->select();foreach($_new_list as $_new_v):extract($_new_v);$url = U("/" . $id);?><dd>
 						<a href="<?php echo ($url); ?>"><?php echo ($title); ?></a>
 						<span>(<?php echo ($click); ?>)</span>
 					</dd><?php endforeach; ?>
@@ -133,17 +85,11 @@
 		
 			<dl>
 				<dt>友情连接</dt>
-				<dd>
-					<a href="">后盾网</a>
-				</dd>
-
-				<dd>
-					<a href="">后盾网论坛</a>
-				</dd>
-				<dd>
-					<a href="">后盾网学习社区</a>
-				</dd>
+				<?php $field = array("id", "name", "address");$where = array("status" => 1);$_nav_blogroll = M("blogroll")->field($field)->where($where)->order("sort DESC")->limit(10)->select();foreach($_nav_blogroll as $_blogroll_v):extract($_blogroll_v);?><dd>
+						<a href="<?php echo ($address); ?>" target="_blank"><?php echo ($name); ?></a>
+					</dd><?php endforeach;?>
 			</dl>
+			<?php echo W('ShowBlogroll', array('limit' => 5, 'order' => 'DESC'));?>
 		</div>
 	</div>
 <!--底部-->

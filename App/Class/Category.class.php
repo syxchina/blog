@@ -68,6 +68,17 @@
 			}
 			return $tree;
 		}
+
+		// 传递一个父级id 回去的子类
+		static public function getChild($cate, $pid = 0){
+			$child = array();
+			foreach($cate as $v){
+				if($v['pid'] == $pid){
+					$child[] = $v;
+				}
+			}
+			return $child;
+		}
 	}
 	
 

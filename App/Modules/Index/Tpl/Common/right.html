@@ -14,16 +14,12 @@
 		
 			<dl>
 				<dt>友情连接</dt>
-				<dd>
-					<a href="">后盾网</a>
-				</dd>
-
-				<dd>
-					<a href="">后盾网论坛</a>
-				</dd>
-				<dd>
-					<a href="">后盾网学习社区</a>
-				</dd>
+				<blogroll limit="10">
+					<dd>
+						<a href="{$address}" target="_blank">{$name}</a>
+					</dd>
+				</blogroll>
 			</dl>
+			{:W('ShowBlogroll', array('limit' => 5, 'order' => 'DESC'))}
 		</div>
 	</div>

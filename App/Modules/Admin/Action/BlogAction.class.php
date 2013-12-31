@@ -81,6 +81,7 @@
 			$data = array(
 				'title' => $_POST['title'],
 				'content' => $_POST['content'],
+				'summary' => $_POST['summary'],
 				'time' => time(),
 				'click' => $_POST['click'] + 0,
 				'cid' => $_POST['cid'] + 0,

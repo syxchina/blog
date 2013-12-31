@@ -49,6 +49,10 @@
 	  		  		<td><input type="text" name="title" /></td>
 	  		  	</tr>
 	  		  	<tr>
+	  		  		<td align="right">摘要</td>
+	  		  		<td><input type="text" name="summary" /></td>
+	  		  	</tr>
+	  		  	<tr>
 	  		  		<td colspan="2">
 	  		  			<textarea name="content" id="content" ></textarea>
 	  		  		</td>

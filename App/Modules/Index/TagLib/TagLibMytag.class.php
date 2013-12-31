@@ -7,6 +7,7 @@
 		protected $tags = array(
 			'nav' => array('attr' => 'order','close' => 1),
 			'new' => array('attr' => 'limit', 'close' =>1),
+			'blogroll' => array('attr' => 'order,limit', 'close' =>1)
 			);
 
 
@@ -31,13 +32,28 @@ str;
 			$attr = $this->parseXmlAttr($attr);
 			$str = '<?php ';
 			$str .= '$field = array("id", "title", "click");';
-			$str .= '$_new_list = M("blog")->field($field)->order("time DESC")->limit('. $attr['limit'] .')->select();';
+			$str .= '$where = array("del" => 0);';
+			$str .= '$_new_list = M("blog")->field($field)->where($where)->order("time DESC")->limit('. $attr['limit'] .')->select();';
 			$str .= 'foreach($_new_list as $_new_v):';
 			$str .= 'extract($_new_v);';
 			$str .= '$url = U("/" . $id);';
 			$str .= '?>';
 			$str .= $content;
 			$str .='<?php endforeach; ?>';
+			return $str;
+		}
+
+		public function _blogroll($attr, $content){
+			$attr = $this->parseXmlAttr($attr);
+			$str = '<?php ';
+			$str .= '$field = array("id", "name", "address");';
+			$str .= '$where = array("status" => 1);';
+			$str .= '$_nav_blogroll = M("blogroll")->field($field)->where($where)->order("sort DESC")->limit(' . $attr['limit'] . ')->select();';
+			$str .= 'foreach($_nav_blogroll as $_blogroll_v):';
+			$str .= 'extract($_blogroll_v);';
+			$str .= '?>';
+			$str .= $content;
+			$str .= '<?php endforeach;?>';
 			return $str;
 		}
 	}

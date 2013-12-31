@@ -44,6 +44,12 @@
 			<dd><a href="#">功能标题</a></dd>
 		</dl>
 		<dl>
+			<dt>友情链接管理</dt>
+			<dd><a href="<?php echo U(GROUP_NAME . '/Blogroll/index');?>">链接列表</a></dd>
+			<dd><a href="<?php echo U(GROUP_NAME . '/Blogroll/addBlogroll');?>">添加友情链接</a></dd>
+			<dd><a href="#">功能标题</a></dd>
+		</dl>
+		<dl>
 			<dt>系统设置</dt>
 			<dd><a href="<?php echo U(GROUP_NAME . '/System/verify');?>">验证码设置</a></dd>
 			<dd><a href="<?php echo U(GROUP_NAME . '/System/water');?>">水印配置</a></dd>
