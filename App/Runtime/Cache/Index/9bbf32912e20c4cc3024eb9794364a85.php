@@ -7,6 +7,11 @@
 	<script type="text/JavaScript" src='__PUBLIC__/Js/jquery-1.7.2.min.js'></script>
 	<script type="text/JavaScript" src='__PUBLIC__/Js/common.js'></script>
 	<link rel="stylesheet" href="__PUBLIC__/Css/show.css" />
+	<script type="text/javascript" src=__ROOT__/Data/ueditor/third-party/SyntaxHighlighter/shCore.js></script>
+	<script type="text/javascript" src=__ROOT__/Data/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css></script>
+	<script type="text/javascript">
+		SyntaxHighlighter.all()
+	</script>
 </head>
 <body>
 	<div class='top-list-wrap'>
@@ -55,56 +60,24 @@
 	</div>
 	<div class='main'>
 		<div class='main-left'>
+			
 			<div class='location'>
-				<a href="">首页</a>>
-				<a href="">PHP</a>>
-				<a href="">对象</a>
+				<a href="__GROUP__">首页</a>>
+				<?php $last = count($parents) - 1 ?>
+				<?php if(is_array($parents)): foreach($parents as $key=>$v): ?><a href="<?php echo U('/c_' . $v['id']);?>"><?php echo ($v["name"]); ?></a><?php if($last != $key): ?>><?php endif; endforeach; endif; ?>
 			</div>
-			<div class="title">
-				<p>对象的产生与生命周期</p>
-				<div>
-					<span class='fl'>发布于：2013年12月12日</span>
-					<span class='fr'>已被阅读1024次</span>
+			
+				<div class="title">
+					<p><?php echo ($blog["title"]); ?></p>
+					<div>
+						<span class='fl'>发布于：<?php echo (date('Y年m月d日', $blog["time"])); ?></span>
+						<span class='fr'>已被阅读<script type="text/javascript" src="<?php echo U(GROUP_NAME . '/Show/clickInc', array('id' => $blog['id']));?>"></script>次</span>
+					</div>
 				</div>
-			</div>
-			<div class='content'>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-				这里是正文<br/>
-			</div>
+				<div class='content'>
+					<?php echo ($blog["content"]); ?>
+				</div>
+			
 		</div>
 	<!--主体右侧-->
 		<div class='main-right'>
@@ -128,6 +101,7 @@
 			<?php echo W('ShowBlogroll', array('limit' => 5, 'order' => 'DESC'));?>
 		</div>
 	</div>
+	</div>	
 <!--底部-->
 	<div class='bottom'>
 		<div></div>

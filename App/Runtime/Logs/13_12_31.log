@@ -13085,3 +13085,179 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.001493s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001698s ]
 
+[ 2013-12-31T17:28:44+08:00 ] 127.0.0.1 /blog/c_2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003612s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.008652s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.014371s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.011073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bl_blog` WHERE ( `cid` IN (2) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.000604s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.summary AS summary,blog.time AS time,blog.click AS click,cate.name AS name FROM bl_blog blog LEFT JOIN bl_cate cate ON blog.cid = cate.id WHERE ( `cid` IN (2) ) AND ( `del` = 0 ) ORDER BY blog.time DESC LIMIT 0,15   [ RunTime:0.001757s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 15 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 32 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 47 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.005094s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY click DESC LIMIT 5   [ RunTime:0.000650s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.000929s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.009164s ]
+SQL: SELECT `id`,`name`,`address` FROM `bl_blogroll` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 10   [ RunTime:0.000620s ]
+SQL: SELECT `id`,`name`,`address` FROM `bl_blogroll` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 5   [ RunTime:0.017727s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.133332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133582s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009088s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001712s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002029s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015534s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001825s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006392s ]
+
+[ 2013-12-31T17:28:44+08:00 ] 127.0.0.1 /blog/c_3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002019s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.033504s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.007584s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bl_blog` WHERE ( `cid` IN ('8','9',3) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.001611s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.summary AS summary,blog.time AS time,blog.click AS click,cate.name AS name FROM bl_blog blog LEFT JOIN bl_cate cate ON blog.cid = cate.id WHERE ( `cid` IN ('8','9',3) ) AND ( `del` = 0 ) ORDER BY blog.time DESC LIMIT 0,15   [ RunTime:0.005988s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 15 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 32 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 47 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000919s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY click DESC LIMIT 5   [ RunTime:0.000861s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.000895s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.007593s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.010687s ]
+SQL: SELECT `id`,`name`,`address` FROM `bl_blogroll` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 10   [ RunTime:0.000626s ]
+SQL: SELECT `id`,`name`,`address` FROM `bl_blogroll` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 5   [ RunTime:0.000619s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.086082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086343s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001277s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001118s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006364s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2013-12-31T17:28:45+08:00 ] 127.0.0.1 /blog/c_4.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.006479s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.008086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bl_blog` WHERE ( `cid` IN ('10','11','12',4) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.summary AS summary,blog.time AS time,blog.click AS click,cate.name AS name FROM bl_blog blog LEFT JOIN bl_cate cate ON blog.cid = cate.id WHERE ( `cid` IN ('10','11','12',4) ) AND ( `del` = 0 ) ORDER BY blog.time DESC LIMIT 0,15   [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 15 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 32 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 47 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.002021s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY click DESC LIMIT 5   [ RunTime:0.000674s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.001338s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.016473s ]
+SQL: SELECT `id`,`name`,`address` FROM `bl_blogroll` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 10   [ RunTime:0.000620s ]
+SQL: SELECT `id`,`name`,`address` FROM `bl_blogroll` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 5   [ RunTime:0.000841s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.105143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105376s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001029s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005318s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2013-12-31T17:28:46+08:00 ] 127.0.0.1 /blog/c_5.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001550s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `bl_cate` [ RunTime:0.014826s ]
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `bl_blog` [ RunTime:0.134880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bl_blog` WHERE ( `cid` IN ('13','14','15','16',5) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.000907s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.summary AS summary,blog.time AS time,blog.click AS click,cate.name AS name FROM bl_blog blog LEFT JOIN bl_cate cate ON blog.cid = cate.id WHERE ( `cid` IN ('13','14','15','16',5) ) AND ( `del` = 0 ) ORDER BY blog.time DESC LIMIT 0,15   [ RunTime:0.005815s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 15 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 32 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in E:\wamp\www\blog\App\Modules\Index\TagLib\TagLibMytag.class.php on line 47 and defined E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag E:\wamp\www\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `bl_cate` ORDER BY sort  [ RunTime:0.021804s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY click DESC LIMIT 5   [ RunTime:0.000998s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.026030s ]
+SQL: SELECT `id`,`title`,`click` FROM `bl_blog` WHERE ( `del` = 0 ) ORDER BY time DESC LIMIT 5   [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `bl_blogroll` [ RunTime:0.007091s ]
+SQL: SELECT `id`,`name`,`address` FROM `bl_blogroll` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 10   [ RunTime:0.000620s ]
+SQL: SELECT `id`,`name`,`address` FROM `bl_blogroll` WHERE ( `status` = 1 ) ORDER BY sort DESC LIMIT 5   [ RunTime:0.000820s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.143907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144221s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001328s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000890s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006125s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001666s ]
+

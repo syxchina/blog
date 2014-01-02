@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="/blog/Public/Css/common.css" />
+	<script type="text/JavaScript" src='/blog/Public/Js/jquery-1.7.2.min.js'></script>
+	<script type="text/JavaScript" src='/blog/Public/Js/common.js'></script>
+	<link rel="stylesheet" href="/blog/Public/Css/show.css" />
+	<script type="text/javascript" src=/blog/Data/ueditor/third-party/SyntaxHighlighter/shCore.js></script>
+	<script type="text/javascript" src=/blog/Data/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css></script>
+	<script type="text/javascript">
+		SyntaxHighlighter.all()
+	</script>
+</head>
+<body>
+	<div class='top-list-wrap'>
+		<div class='top-list'>
+			<ul class='l-list'>
+				<li><a href="http://www.houdunwang.com" target='_blank'>后盾网</a></li>
+				<li><a href="http://bbs.houdunwang.com" target='_blank'>后盾网论坛</a></li>
+				<li><a href="http://study.houdunwang.com" target='_blank'>后盾学习社区</a></li>
+			</ul>
+			<ul class='r-list'>
+				<li><a href="http://www.hdphp.com" target='_blank'>HDPHP框架</a></li>
+				<li><a href="http://bbs.houdunwang.com" target='_blank'>免费视频教程</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class='top-search-wrap'>
+		<div class='top-search'>
+			<a href="http://bbs.houdunwang.com" target='_blank' class='logo'>
+				<img src="/blog/Public/Images/logo.png"/>
+			</a>
+			<div class='search-wrap'>
+				<form action="" method='get'>
+					<input type="text" name='keyword' class='search-content'/>
+					<input type="submit" name='search' value='搜索'/>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class='top-nav-wrap'>
+		<ul class='nav-lv1'>
+			<li class='nav-lv1-li'>
+				<a href="/blog" class='top-cate'>博客首页</a>
+			</li>
+			<li class='nav-lv1-li'>
+					<a href="/blog/c_1.html" class='top-cate'>HTML</a>
+						<ul>
+													</ul>
+					</if>	
+				</li><li class='nav-lv1-li'>
+					<a href="/blog/c_2.html" class='top-cate'>DIV+CSS</a>
+						<ul>
+													</ul>
+					</if>	
+				</li><li class='nav-lv1-li'>
+					<a href="/blog/c_3.html" class='top-cate'>JavaScript</a>
+						<ul>
+							<li><a href="/blog/c_8.html">jQuery</a></li><li><a href="/blog/c_9.html">Ajax</a></li>						</ul>
+					</if>	
+				</li><li class='nav-lv1-li'>
+					<a href="/blog/c_4.html" class='top-cate'>PHP</a>
+						<ul>
+							<li><a href="/blog/c_10.html">字符串</a></li><li><a href="/blog/c_11.html">数组</a></li><li><a href="/blog/c_12.html">对象</a></li>						</ul>
+					</if>	
+				</li><li class='nav-lv1-li'>
+					<a href="/blog/c_5.html" class='top-cate'>MySql</a>
+						<ul>
+							<li><a href="/blog/c_13.html">存储引擎</a></li><li><a href="/blog/c_14.html">事务</a></li><li><a href="/blog/c_15.html">视图</a></li><li><a href="/blog/c_16.html">存储过程</a></li>						</ul>
+					</if>	
+				</li><li class='nav-lv1-li'>
+					<a href="/blog/c_6.html" class='top-cate'>Linux</a>
+						<ul>
+							<li><a href="/blog/c_17.html">基本配置</a></li><li><a href="/blog/c_18.html">网络命令</a></li>						</ul>
+					</if>	
+				</li><li class='nav-lv1-li'>
+					<a href="/blog/c_7.html" class='top-cate'>其他</a>
+						<ul>
+													</ul>
+					</if>	
+				</li>		</ul>
+	</div>
+	<div class='main'>
+		<div class='main-left'>
+			
+			<div class='location'>
+				<a href="/blog">首页</a>>
+								<a href="/blog/c_4.html">PHP</a>><a href="/blog/c_12.html">对象</a>			</div>
+			
+				<div class="title">
+					<p>无限接分类</p>
+					<div>
+						<span class='fl'>发布于：2013年12月31日</span>
+						<span class='fr'>已被阅读<script type="text/javascript" src="/blog/Index/Show/clickInc/id/12.html"></script>次</span>
+					</div>
+				</div>
+				<div class='content'>
+					<pre class="brush:php;toolbar:false">&lt;?php&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;/**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;栏目无限级分类
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/
+&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;Category
+&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;组合一维数组
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;public&nbsp;function&nbsp;unlimitedForLevel($cate,&nbsp;$html&nbsp;=&nbsp;&#39;--&#39;,&nbsp;$pid&nbsp;=&nbsp;0,&nbsp;$level&nbsp;=&nbsp;0){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree&nbsp;=&nbsp;array();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach($cate&nbsp;as&nbsp;$v){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if($v[&#39;pid&#39;]&nbsp;==&nbsp;$pid){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$v[&#39;level&#39;]&nbsp;=&nbsp;$level&nbsp;+&nbsp;1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$v[&#39;html&#39;]&nbsp;=&nbsp;str_repeat($html,&nbsp;$level);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree[]&nbsp;=&nbsp;$v;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree&nbsp;=&nbsp;array_merge($tree,&nbsp;self::unlimitedForLevel($cate,&nbsp;$html,&nbsp;$v[&#39;id&#39;],&nbsp;$level&nbsp;+&nbsp;1));
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;$tree;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;组合二维数组
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;public&nbsp;function&nbsp;unlimitedForLayer($cate,&nbsp;$pid&nbsp;=&nbsp;0){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree&nbsp;=&nbsp;array();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach($cate&nbsp;as&nbsp;$v){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if($v[&#39;pid&#39;]&nbsp;==&nbsp;$pid){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$v[&#39;child&#39;]&nbsp;=&nbsp;self::unlimitedForLayer($cate,&nbsp;$v[&#39;id&#39;]);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree[]&nbsp;=&nbsp;$v;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;$tree;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;迭代获取家谱树
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;public&nbsp;function&nbsp;getParents($cate,&nbsp;$id){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree&nbsp;=&nbsp;array();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while($id&nbsp;!=&nbsp;0){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach($cate&nbsp;as&nbsp;$v){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if($v[&#39;id&#39;]&nbsp;==&nbsp;$id){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree[]&nbsp;=&nbsp;$v;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$id&nbsp;=&nbsp;$v[&#39;pid&#39;];&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;$tree;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;递归获取家谱树
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;public&nbsp;function&nbsp;getParent($cate,&nbsp;$id){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree&nbsp;=&nbsp;array();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach($cate&nbsp;as&nbsp;$v){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if($v[&#39;id&#39;]&nbsp;==&nbsp;$id){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree[]&nbsp;=&nbsp;$v;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree&nbsp;=&nbsp;array_merge(self::getParent($cate,&nbsp;$v[&#39;pid&#39;]),&nbsp;$tree);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;$tree;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;传递一个父级id&nbsp;回去所有的子类id
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;public&nbsp;function&nbsp;getChildId($cate,&nbsp;$pid){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree&nbsp;=&nbsp;array();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach($cate&nbsp;as&nbsp;$v){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if($v[&#39;pid&#39;]&nbsp;==&nbsp;$pid){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree[]&nbsp;=&nbsp;$v[&#39;id&#39;];
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tree&nbsp;=&nbsp;array_merge($tree,&nbsp;self::getChildId($cate,&nbsp;$v[&#39;id&#39;]));
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;$tree;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;传递一个父级id&nbsp;回去的子类
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;public&nbsp;function&nbsp;getChild($cate,&nbsp;$pid&nbsp;=&nbsp;0){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$child&nbsp;=&nbsp;array();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach($cate&nbsp;as&nbsp;$v){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if($v[&#39;pid&#39;]&nbsp;==&nbsp;$pid){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$child[]&nbsp;=&nbsp;$v;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;$child;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;
+?&gt;</pre><p><br/></p>				</div>
+			
+		</div>
+	<!--主体右侧-->
+		<div class='main-right'>
+	<dl>
+	<dt>热门博文</dt>
+	<dd>
+			<a href="/blog/12.html">无限接分类</a>
+			<span>(1073)</span>
+		</dd><dd>
+			<a href="/blog/4.html">test4</a>
+			<span>(102)</span>
+		</dd><dd>
+			<a href="/blog/6.html">hahah</a>
+			<span>(101)</span>
+		</dd><dd>
+			<a href="/blog/7.html">test 数组</a>
+			<span>(101)</span>
+		</dd><dd>
+			<a href="/blog/5.html">ni hao</a>
+			<span>(100)</span>
+		</dd>	
+</dl>				<dl>
+				<dt>最发布发</dt>
+				<dd>
+						<a href="/blog/12.html">无限接分类</a>
+						<span>(1073)</span>
+					</dd><dd>
+						<a href="/blog/11.html">html基础</a>
+						<span>(100)</span>
+					</dd><dd>
+						<a href="/blog/10.html">wlmig</a>
+						<span>(100)</span>
+					</dd><dd>
+						<a href="/blog/8.html">事务</a>
+						<span>(100)</span>
+					</dd><dd>
+						<a href="/blog/7.html">test 数组</a>
+						<span>(101)</span>
+					</dd>			</dl>		
+			<dl>
+				<dt>test自定义标签</dt>
+				<dd>
+						<a href="/blog/12.html">无限接分类</a>
+						<span>(1073)</span>
+					</dd><dd>
+						<a href="/blog/11.html">html基础</a>
+						<span>(100)</span>
+					</dd><dd>
+						<a href="/blog/10.html">wlmig</a>
+						<span>(100)</span>
+					</dd><dd>
+						<a href="/blog/8.html">事务</a>
+						<span>(100)</span>
+					</dd><dd>
+						<a href="/blog/7.html">test 数组</a>
+						<span>(101)</span>
+					</dd>			</dl>
+		
+			<dl>
+				<dt>友情连接</dt>
+				<dd>
+						<a href="http://www.youku.com" target="_blank">优酷</a>
+					</dd><dd>
+						<a href="http://www.google.com" target="_blank">google</a>
+					</dd><dd>
+						<a href="http://www.baidu.com" target="_blank">百度</a>
+					</dd>			</dl>
+						<dl>
+				<dt>Widget</dt>
+				<dd>
+						<a href="http://www.youku.com">优酷</a>
+					</dd><dd>
+						<a href="http://www.google.com">google</a>
+					</dd><dd>
+						<a href="http://www.baidu.com">百度</a>
+					</dd>			</dl>		</div>
+	</div>
+	</div>	
+<!--底部-->
+	<div class='bottom'>
+		<div></div>
+	</div>
+</body>
+</html>
